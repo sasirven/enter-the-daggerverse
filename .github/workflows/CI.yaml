@@ -17,6 +17,8 @@ jobs:
         with:
           version: "latest"
           module: github.com/shykes/daggerverse/hello@v0.1.2
+          verb: call
+          workrdir: hello
           args: publish --source=.
           # assumes the Dagger Cloud token is in
           # a repository secret named DAGGER_CLOUD_TOKEN
