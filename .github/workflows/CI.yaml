@@ -12,7 +12,7 @@ jobs:
     name: Publish hello app
     runs-on: ubuntu-latest
     steps:
-- name: Call Dagger Publish Function
+      - name: Call Dagger Publish Function
         uses: dagger/dagger-for-github@8.0.0
         with:
           version: "latest"
